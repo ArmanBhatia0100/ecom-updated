@@ -1,0 +1,16 @@
+.checkout__product {
+  display: flex;
+  border: 2px solid black;
+  width: 300px;
+  max-width: 500px;
+}
+.product__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+  p {
+    padding: 5px;
+    margin: 0;
+  }
+}

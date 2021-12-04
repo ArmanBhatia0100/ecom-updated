@@ -1,0 +1,23 @@
+.subtotal__container {
+  box-sizing: border-box;
+  border: 2px solid rgb(44, 44, 44);
+  margin-top: 75px;
+  margin-right: 50px;
+  width: 500px;
+  height: 500px;
+  padding: 15px;
+  font-size: 28px;
+  background-color: #dcd9d4;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    radial-gradient(
+      at 50% 0%,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(0, 0, 0, 0.5) 50%
+    );
+  background-blend-mode: soft-light, screen;
+}
+/*# sourceMappingURL=SubTotal.css.map */

@@ -1,0 +1,15 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  max-width: 370px;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 10px;
+  img {
+    width: 150px;
+    height: 50px;
+  }
+}
